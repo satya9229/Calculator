@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke
+}
+#d1{
+    border: 2px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 8cm;
+    height: 11cm;
+    border-radius: 15px;
+    background-color: gray;
+}
+#d2{
+    border: 2px solid black;
+    width: 7.6cm;
+    height: 10.7cm;
+    border-radius: 15px;
+    background-color: rgb(208, 203, 203);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#display{
+    width: 7.5cm;
+    height: 2cm;
+    border-radius: 10px;
+    background-color: rgb(200, 240, 240);
+    font-size: 1cm;
+}
+.change{
+    width: 1.7cm;
+    height: 1.2cm;
+    font-size: 20px;
+    background-color: rgb(219, 219, 242);
+    border-radius: 5px;
+}
+#off{
+    background-color: red;
+}
+.tb1{
+    /* border: 2px solid black; */
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+.tb2{
+    /* border: 2px solid black; */
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+.tb3{
+    /* border: 2px solid black; */
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+.tb4{
+    /* border: 2px solid black; */
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+.tb5{
+    /* border: 2px solid black; */
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+}
+#mydiv{
+    width: 41cm;
+    height: 7cm;
+    background-color: rgb(69, 68, 68);
+}
+#cd{
+    color: white;
+    text-align: center;
+}
+.cp{
+    color: white;
+    padding-left: 1cm;
+}
+.lkid{
+    color: white;
+}
+#going{
+    color: blue;
+    font-size: xx-large;
+}

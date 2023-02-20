@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+    <center>
+        <h2>Calculator</h2>
+        <div id="d1">
+            <div id="d2">
+                <input id="display" type="text" name="display" autofocus>
+                <table class="tb1">
+                    <tr>
+                        <td><input class="change" type="button" value="%" onclick="display.value+='%'"></td>
+                        <td><input class="change" type="button" value="/" onclick="display.value+='/'"></td>
+                        <td><input class="change" type="button" value="(" onclick="display.value+='('"></td>
+                        <td><input class="change" type="button" value=")" onclick="display.value+=') '"></td>
+                    </tr>
+                </table>
+                <table class="tb2">
+                    <tr>
+                        <td><input class="change" type="button" value="7" onclick="display.value+='7'"></td>
+                        <td><input class="change" type="button" value="8" onclick="display.value+='8'"></td>
+                        <td><input class="change" type="button" value="9" onclick="display.value+='9'"></td>
+                        <td><input class="change" type="button" value="*" onclick="display.value+='*'"></td>
+                    </tr>
+                </table>
+                <table class="tb3">
+                    <tr>
+                        <td><input class="change" type="button" value="4" onclick="display.value+='4'"></td>
+                        <td><input class="change" type="button" value="5" onclick="display.value+='5'"></td>
+                        <td><input class="change" type="button" value="6" onclick="display.value+='6'"></td>
+                        <td><input class="change" type="button" value="-" onclick="display.value+='-'"></td>
+                    </tr>
+                </table>
+                <table class="tb4">
+                    <tr>
+                        <td><input class="change" type="button" value="1" onclick="display.value+='1'"></td>
+                        <td><input class="change" type="button" value="2" onclick="display.value+='2'"></td>
+                        <td><input class="change" type="button" value="3" onclick="display.value+='3'"></td>
+                        <td><input class="change" type="button" value="+" onclick="display.value+='+'"></td>
+                    </tr>
+                </table>
+                <table class="tb5">
+                    <tr>
+                        <td><input class="change" type="button" value="clear" onclick="display.value =' '"></td>
+                        <td><input class="change" type="button" value="0" onclick="display.value+='0'"></td>
+                        <td><input class="change" type="button" value="." onclick="display.value+='.'"></td>
+                        <td><input class="change" type="button" value="=" onclick="display.value = eval(display.value)"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </center>
+    <marquee id="going">Hi All..,This is the Normal Calculator..We are Performing Arthematic Operations Like Add(); Sub(); Mul(); Div(); Rem();</marquee>
+    <br><br>
+    <div id="mydiv">
+        <p id="cd">Contact details</p>
+        <p class="cp">Name : Satti Satya Narayana Reddy</p>
+        <br>
+        <p class="cp">Gmail : ssnarayanareddy1126@gmail.com</p>
+        <br>
+        <p class="cp">LinkedIn : <a href="https://www.linkedin.com/in/satya-narayana-reddy-satti-4ab779250/" class="lkid">https://www.linkedin.com/in/satya-narayana-reddy-satti-4ab779250/</a></p>
+        <br>
+        <p class="cp">github :<a href="https://github.com/satya9229"  class="lkid">https://github.com/satya9229</a> </p>
+        <br>
+        <p class="cp">Mobile No : 8790549229</p>
+    </div>
+</body>
+</html>
